@@ -3,5 +3,5 @@
     max-width: 575px;
     margin: 0 auto;
     background: rgb(183,21,64);
-    background: radial-gradient(circle, rgba(#009432, 1) 0%, rgba(#A3CB38, 1) 100%);
+    background: radial-gradient(circle, rgba($color-primary, 1) 0%, rgba($color-secondary, 1) 100%);
 }
