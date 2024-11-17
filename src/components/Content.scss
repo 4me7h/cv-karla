@@ -1,0 +1,68 @@
+.content {    
+    padding: 1rem 0 0.5rem;
+    &__header {
+        padding: 0.5rem 1rem;
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-bottom: 0.5rem;
+    }
+    &__name {
+        display: block;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: .05rem;
+    }
+    &__position {
+        display: block;
+    }
+    &__company {
+        display: block;
+    }
+    &__about {
+        padding: 0.5rem 1rem;
+        color: white;
+        margin-bottom: 1rem;
+        &__title {
+            display: block;
+            font-weight: bold;
+        }
+        &__text {
+            display: block;
+        }
+    }
+    &__contact {
+        padding: 0.5rem 1rem;
+        text-align: center;
+        color: white;
+        span {
+            background-color: rgba(black, 0.35);
+            border-radius: 5px;
+            margin-bottom: .2rem;
+            padding: .2rem 0;
+        }
+        a {
+            color: white;
+        }
+
+        &__title {
+            display: block;
+            font-weight: bold;
+        }
+        &__email {
+            display: block;
+        }
+        &__phone {
+            display: block;
+        }
+        &__whatsapp {
+            display: block;
+        }
+        &__facebook {
+            display: block;
+        }
+        &__twitter {
+            display: block;
+        }
+    }
+}
